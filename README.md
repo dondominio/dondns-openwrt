@@ -11,7 +11,7 @@ Seleccionar Services -> Dynamic DNS
  
 Activar "Enable"
 Poner "Service" a "custom"
-Poner en "Custom update-URL" el valor "http://www.dondominio.com/api/xml/dynamicip/?user=[USERNAME]&password=[PASSWORD]&host=[DOMAIN]&ip=[IP]"
+Poner en "Custom update-URL" el valor "http://dondns.dondominio.com/xml/?user=[USERNAME]&password=[PASSWORD]&host=[DOMAIN]&ip=[IP]"
 Poner en "Hostname" el valor del dominio a registrar
 Poner en "Username" el nombre del usuario
 Poner en "Password" el valor del AuthCode
