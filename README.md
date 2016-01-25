@@ -14,7 +14,7 @@ Poner "Service" a "custom"
 Poner en "Custom update-URL" el valor "http://dondns.dondominio.com/json/?user=[USERNAME]&password=[PASSWORD]&host=[DOMAIN]"
 Poner en "Hostname" el valor del dominio a registrar
 Poner en "Username" el nombre del usuario
-Poner en "Password" el valor del AuthCode
+Poner en "Password" el valor de DonDNS Key
 En "Source of IP address" seleccionar "network"
 En "Network" seleccionar "wan"
 El resto dejarlo por defecto
