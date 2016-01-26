@@ -11,7 +11,7 @@ Seleccionar Services -> Dynamic DNS
  
 Pulsar el botón "Edit" en la opción IPv4
 Poner "Service" a "custom"
-Poner en "Custom update-URL" el valor "http://dondns.dondominio.com/json/?user=[USERNAME]&password=[PASSWORD]&host=[DOMAIN]"
+Poner en "Custom update-URL" el valor "http://dondns.dondominio.com/plain/?user=[USERNAME]&password=[PASSWORD]&host=[DOMAIN]"
 Poner en "Hostname" el valor del dominio a registrar
 Poner en "Username" el nombre del usuario
 Poner en "Password" el valor de DonDNS Key
@@ -45,7 +45,7 @@ option ip_source 'network'
 option ip_network 'wan'
 option domain '<dominio que queremos actualizar>'
 option password '<DonDNS Key>'
-option update_url 'http://dondns.dondominio.com/json/?user=[USERNAME]&password=[PASSWORD]&host=[DOMAIN]'
+option update_url 'http://dondns.dondominio.com/plain/?user=[USERNAME]&password=[PASSWORD]&host=[DOMAIN]'
 option use_https '1'
 option cacert 'IGNORE'
 ```
